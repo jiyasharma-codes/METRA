@@ -1,0 +1,62 @@
+[
+  {
+    "id": "U1",
+    "name": "R. Sharma",
+    "role": "Technician",
+    "email": "r.sharma@nawi-lab.gov.in",
+    "designation": "Laboratory Technician",
+    "phone": "—",
+    "salt": "6d47e23339be121a592f0ab88d497269",
+    "hash": "22ae769a320e493c787547cfd8b57c3be805c35eef9446207653da47d78cc70a98b7e2f541a427c58628b18f8aa8876a0262164a1f493008d782ec052a6674b3"
+  },
+  {
+    "id": "U2",
+    "name": "P. Nair",
+    "role": "Technician",
+    "email": "p.nair@nawi-lab.gov.in",
+    "designation": "Laboratory Technician",
+    "phone": "—",
+    "salt": "2b6982748a17a43ac66a4fc02fb653dd",
+    "hash": "0f01ea692f9ed58fc65507e1a5d48f920259aeb14c082186eca21853de39de354065e18d888ede5156b031524801504f4c44658c4d9130e5566e8528c0d2cf03"
+  },
+  {
+    "id": "U3",
+    "name": "Dr. N. Verma",
+    "role": "Examiner",
+    "email": "n.verma@nawi-lab.gov.in",
+    "designation": "Senior Examiner",
+    "phone": "—",
+    "salt": "ac95a3ce7831491bb87005bbd06e9555",
+    "hash": "231e52eb8f34b138ebe8b78812fe265b83186b8c5e69963cb4d23b06cf9e5a7b30c6a2bc2dd3c560243857d1830636e4ff45953939fb4f9cd00c9f82d2cfd579"
+  },
+  {
+    "id": "U4",
+    "name": "S. Iyer",
+    "role": "Authority",
+    "email": "s.iyer@nawi-lab.gov.in",
+    "designation": "Approving Authority",
+    "phone": "—",
+    "salt": "120c8bcc6df4743e4b5d5eebd33bda7b",
+    "hash": "abf1ce83e816913c46442c52eb3d12e9aa9add1cf313e954ecefd996b8529137d82cf1ca5e4afefacf57475476c3952bb3cb39f2c49f0935b5ccda73a939a57a"
+  },
+  {
+    "id": "U5",
+    "name": "A. Admin",
+    "role": "Admin",
+    "email": "admin@nawi-lab.gov.in",
+    "designation": "System Administrator",
+    "phone": "—",
+    "salt": "be02c61c6ad35391a67a6d9f38640670",
+    "hash": "2d77cafe59e847d42d2844349569816018fe76bc813b43a159c17d3103c0c5e46ec03615f43d809603e2bed51922cd8c06cae37ecb374e34b7593c06e0be7c32"
+  },
+  {
+    "id": "U6",
+    "name": "Guest Viewer",
+    "role": "Viewer",
+    "email": "viewer@nawi-lab.gov.in",
+    "designation": "Observer",
+    "phone": "—",
+    "salt": "af9b960ea2edfb40e52f8a06b3df92f8",
+    "hash": "b69b8780806d7ea5a9b0fbc351ef792f590d56d604c1eabb7892f37aa8f165959065939c3c1697b961f968898f9112d364e530c6b63a22124ea9ba54aa5d0dbb"
+  }
+]

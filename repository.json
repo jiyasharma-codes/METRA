@@ -1,0 +1,1792 @@
+{
+  "instruments": [
+    {
+      "id": "INST-A300",
+      "nawiId": "NAWI-000142",
+      "manufacturer": "Suvidha Scales & Systems Pvt. Ltd.",
+      "applicant": "Suvidha Scales & Systems Pvt. Ltd.",
+      "model": "SS-300B",
+      "serialNumber": "SS300B-2026-0142",
+      "instrumentType": "Electronic Bench Scale",
+      "accuracyClass": "III",
+      "maxCapacity": 300,
+      "minCapacity": 2,
+      "capacityUnit": "kg",
+      "e": 0.1,
+      "nVerification": 3000,
+      "verificationStage": "initial",
+      "display": "LCD Digital, 6-digit",
+      "firmware": "v4.2.1",
+      "dateSubmission": "2026-08-30T10:50:10.078Z",
+      "laboratory": "Regional Reference Standards Laboratory, Panipat",
+      "status": "Evaluation Completed",
+      "photos": {
+        "instrument": true,
+        "nameplate": true
+      },
+      "documents": [
+        "Calibration Certificate.pdf",
+        "Technical Datasheet.pdf"
+      ],
+      "isDemo": false,
+      "recordSource": "Prototype laboratory seed record",
+      "dataStatus": "Seeded — replace with verified laboratory record",
+      "createdAt": "2026-08-30T10:50:10.078Z",
+      "measurementHistory": [
+        {
+          "id": "MH-A1",
+          "date": "2025-08-15T10:50:10.078Z",
+          "testKey": "ACC",
+          "load": 300,
+          "error": 0.03,
+          "unit": "kg",
+          "source": "manual",
+          "envTemp": 24.1,
+          "envHumidity": 50.8,
+          "resultLabel": "PASS",
+          "isDemo": false,
+          "refTestId": null,
+          "loadPoints": [
+            {
+              "pct": 0,
+              "load": 0,
+              "error": 0,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 25,
+              "load": 75,
+              "error": 0.01,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 50,
+              "load": 150,
+              "error": -0.02,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 75,
+              "load": 225,
+              "error": 0.03,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 100,
+              "load": 300,
+              "error": 0.03,
+              "unit": "kg",
+              "source": "manual"
+            }
+          ]
+        },
+        {
+          "id": "MH-A2",
+          "date": "2026-03-08T10:50:10.078Z",
+          "testKey": "ACC",
+          "load": 300,
+          "error": 0.01,
+          "unit": "kg",
+          "source": "iot",
+          "envTemp": 24.3,
+          "envHumidity": 51.2,
+          "resultLabel": "PASS",
+          "isDemo": false,
+          "refTestId": null,
+          "loadPoints": [
+            {
+              "pct": 0,
+              "load": 0,
+              "error": 0,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 25,
+              "load": 75,
+              "error": 0.015,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 50,
+              "load": 150,
+              "error": -0.01,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 75,
+              "load": 225,
+              "error": 0.02,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 100,
+              "load": 300,
+              "error": 0.01,
+              "unit": "kg",
+              "source": "iot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "INST-B030",
+      "nawiId": "NAWI-000071",
+      "manufacturer": "Prakash Weighing Technologies Pvt. Ltd.",
+      "applicant": "Prakash Weighing Technologies Pvt. Ltd.",
+      "model": "PWT-P30",
+      "serialNumber": "PWTP30-2026-0071",
+      "instrumentType": "Electronic Precision Balance",
+      "accuracyClass": "III",
+      "maxCapacity": 30,
+      "minCapacity": 0.5,
+      "capacityUnit": "kg",
+      "e": 0.005,
+      "nVerification": 6000,
+      "verificationStage": "initial",
+      "display": "OLED Digital, 7-digit",
+      "firmware": "v2.0.6",
+      "dateSubmission": "2026-09-23T10:50:10.078Z",
+      "laboratory": "Regional Reference Standards Laboratory, Panipat",
+      "status": "Testing In Progress",
+      "photos": {
+        "instrument": true,
+        "nameplate": true
+      },
+      "documents": [
+        "Technical Datasheet.pdf"
+      ],
+      "isDemo": false,
+      "recordSource": "Prototype laboratory seed record",
+      "dataStatus": "Seeded — replace with verified laboratory record",
+      "createdAt": "2026-09-23T10:50:10.078Z",
+      "measurementHistory": [
+        {
+          "id": "MH-B1",
+          "date": "2025-08-30T10:50:10.078Z",
+          "testKey": "ACC",
+          "load": 30,
+          "error": 0.002,
+          "unit": "kg",
+          "source": "manual",
+          "envTemp": 24,
+          "envHumidity": 50.5,
+          "resultLabel": "PASS",
+          "isDemo": false,
+          "refTestId": null,
+          "loadPoints": [
+            {
+              "pct": 0,
+              "load": 0,
+              "error": 0,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 25,
+              "load": 7.5,
+              "error": 0.0005,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 50,
+              "load": 15,
+              "error": 0.001,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 75,
+              "load": 22.5,
+              "error": 0.0015,
+              "unit": "kg",
+              "source": "manual"
+            },
+            {
+              "pct": 100,
+              "load": 30,
+              "error": 0.002,
+              "unit": "kg",
+              "source": "manual"
+            }
+          ]
+        },
+        {
+          "id": "MH-B2",
+          "date": "2026-03-23T10:50:10.078Z",
+          "testKey": "ACC",
+          "load": 30,
+          "error": 0.006,
+          "unit": "kg",
+          "source": "iot",
+          "envTemp": 24.4,
+          "envHumidity": 51.4,
+          "resultLabel": "PASS",
+          "isDemo": false,
+          "refTestId": null,
+          "loadPoints": [
+            {
+              "pct": 0,
+              "load": 0,
+              "error": 0,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 25,
+              "load": 7.5,
+              "error": 0.001,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 50,
+              "load": 15,
+              "error": 0.002,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 75,
+              "load": 22.5,
+              "error": 0.004,
+              "unit": "kg",
+              "source": "iot"
+            },
+            {
+              "pct": 100,
+              "load": 30,
+              "error": 0.006,
+              "unit": "kg",
+              "source": "iot"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "testPlans": [
+    {
+      "id": "TP-A300",
+      "instrumentId": "INST-A300",
+      "tests": [
+        {
+          "key": "ACC",
+          "name": "Accuracy (Weighing) Test",
+          "purpose": "Determine indication error at test loads across the weighing range and compare against the maximum permissible error (MPE).",
+          "requiredObservations": "Test load, observed indication at 5 points (Min, 25%, 50%, 75%, Max capacity)",
+          "requiredEquipment": "Certified test weights / substitution weights, calibrated reference",
+          "envRequirements": "Stable ambient temperature, draft-free",
+          "status": "applicable"
+        },
+        {
+          "key": "REP",
+          "name": "Repeatability Test",
+          "purpose": "Verify consistency of indication under repeated application of the same load.",
+          "requiredObservations": "5 consecutive readings at a fixed test load (~50% capacity)",
+          "requiredEquipment": "Certified test weight matching selected load",
+          "envRequirements": "Stable ambient conditions during full test sequence",
+          "status": "applicable"
+        },
+        {
+          "key": "DIS",
+          "name": "Discrimination Test",
+          "purpose": "Confirm the instrument responds to a small additional mass at high load.",
+          "requiredObservations": "Indication before and after adding 1e at/near maximum capacity",
+          "requiredEquipment": "Small calibrated increment mass (1e)",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "ECC",
+          "name": "Eccentricity (Corner Load) Test",
+          "purpose": "Verify indication error remains within tolerance when the load is applied off-center on the load-receptor.",
+          "requiredObservations": "Indication at center and at 4 corner positions with a fixed load",
+          "requiredEquipment": "Certified test weight, corner-loading template",
+          "envRequirements": "Level, stable mounting surface",
+          "status": "applicable"
+        },
+        {
+          "key": "SEN",
+          "name": "Sensitivity Test",
+          "purpose": "Confirm the instrument produces a perceptible, correctly-signed change in indication for the smallest applied increment, at a load chosen by the technician (not only near Max).",
+          "requiredObservations": "Indication before and after adding a 1e increment mass at the selected load",
+          "requiredEquipment": "Small calibrated increment mass (1e)",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "ZERO",
+          "name": "Zero-Return Test",
+          "purpose": "Verify the indication returns to zero, within tolerance, after a load equal to Max capacity is applied and fully removed.",
+          "requiredObservations": "Indication after removing a full Max-capacity load",
+          "requiredEquipment": "Certified test weight(s) totalling Max capacity",
+          "envRequirements": "Stable ambient conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "CREEP",
+          "name": "Creep Test",
+          "purpose": "Verify indication does not drift beyond tolerance while Max capacity remains applied over a sustained period (typically 30 minutes).",
+          "requiredObservations": "Indication immediately after applying Max load, and again after 30 minutes under that same load",
+          "requiredEquipment": "Certified test weight(s) totalling Max capacity, stopwatch/timer",
+          "envRequirements": "Stable ambient conditions for the full duration",
+          "status": "applicable"
+        },
+        {
+          "key": "TARE",
+          "name": "Tare Performance Test",
+          "purpose": "Verify indication error remains within the applicable MPE when the tare function is used to zero out a container before weighing a net load.",
+          "requiredObservations": "Net indication with tare set, against the certified net test load",
+          "requiredEquipment": "Tare vessel/container, certified test weight for the net load",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "TEMP",
+          "name": "Temperature Effect Test",
+          "purpose": "Verify indication under a fixed load does not drift beyond the applicable tolerance across a stated change in ambient temperature.",
+          "requiredObservations": "Indication at a reference temperature and again after a recorded temperature change, same fixed load",
+          "requiredEquipment": "Certified test weight, calibrated thermometer / environmental chamber",
+          "envRequirements": "Ambient temperature recorded at both readings",
+          "status": "applicable"
+        },
+        {
+          "key": "WARM",
+          "name": "Warm-Up Test",
+          "purpose": "Verify the instrument's indication stabilizes within its stated warm-up time before testing begins.",
+          "requiredObservations": "Successive zero/no-load readings taken at intervals after power-on until stable",
+          "requiredEquipment": "Stopwatch/timer",
+          "envRequirements": "Instrument powered on from cold/off state",
+          "status": "applicable"
+        },
+        {
+          "key": "VOLT",
+          "name": "Voltage Variation Test",
+          "purpose": "Verify indication under a fixed load does not drift beyond the applicable tolerance across the rated supply-voltage range (electronic instruments only).",
+          "requiredObservations": "Indication at nominal supply voltage and again at a rated voltage extreme, same fixed load",
+          "requiredEquipment": "Certified test weight, variable-voltage supply",
+          "envRequirements": "Not applicable to non-electronic (mechanical) instruments",
+          "status": "applicable"
+        },
+        {
+          "key": "SPAN",
+          "name": "Span Stability Test",
+          "purpose": "Verify the instrument's span (full-scale calibration) remains within tolerance between two calibration checks separated in time.",
+          "requiredObservations": "Indication at Max load on two separate span-check occasions",
+          "requiredEquipment": "Certified test weight(s) totalling Max capacity",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        }
+      ],
+      "generatedAt": "2026-09-09T10:50:10.078Z",
+      "ruleVersionId": "R76-CFG-2.1"
+    },
+    {
+      "id": "TP-B030",
+      "instrumentId": "INST-B030",
+      "tests": [
+        {
+          "key": "ACC",
+          "name": "Accuracy (Weighing) Test",
+          "purpose": "Determine indication error at test loads across the weighing range and compare against the maximum permissible error (MPE).",
+          "requiredObservations": "Test load, observed indication at 5 points (Min, 25%, 50%, 75%, Max capacity)",
+          "requiredEquipment": "Certified test weights / substitution weights, calibrated reference",
+          "envRequirements": "Stable ambient temperature, draft-free",
+          "status": "applicable"
+        },
+        {
+          "key": "REP",
+          "name": "Repeatability Test",
+          "purpose": "Verify consistency of indication under repeated application of the same load.",
+          "requiredObservations": "5 consecutive readings at a fixed test load (~50% capacity)",
+          "requiredEquipment": "Certified test weight matching selected load",
+          "envRequirements": "Stable ambient conditions during full test sequence",
+          "status": "applicable"
+        },
+        {
+          "key": "DIS",
+          "name": "Discrimination Test",
+          "purpose": "Confirm the instrument responds to a small additional mass at high load.",
+          "requiredObservations": "Indication before and after adding 1e at/near maximum capacity",
+          "requiredEquipment": "Small calibrated increment mass (1e)",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "ECC",
+          "name": "Eccentricity (Corner Load) Test",
+          "purpose": "Verify indication error remains within tolerance when the load is applied off-center on the load-receptor.",
+          "requiredObservations": "Indication at center and at 4 corner positions with a fixed load",
+          "requiredEquipment": "Certified test weight, corner-loading template",
+          "envRequirements": "Level, stable mounting surface",
+          "status": "applicable"
+        },
+        {
+          "key": "SEN",
+          "name": "Sensitivity Test",
+          "purpose": "Confirm the instrument produces a perceptible, correctly-signed change in indication for the smallest applied increment, at a load chosen by the technician (not only near Max).",
+          "requiredObservations": "Indication before and after adding a 1e increment mass at the selected load",
+          "requiredEquipment": "Small calibrated increment mass (1e)",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "ZERO",
+          "name": "Zero-Return Test",
+          "purpose": "Verify the indication returns to zero, within tolerance, after a load equal to Max capacity is applied and fully removed.",
+          "requiredObservations": "Indication after removing a full Max-capacity load",
+          "requiredEquipment": "Certified test weight(s) totalling Max capacity",
+          "envRequirements": "Stable ambient conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "CREEP",
+          "name": "Creep Test",
+          "purpose": "Verify indication does not drift beyond tolerance while Max capacity remains applied over a sustained period (typically 30 minutes).",
+          "requiredObservations": "Indication immediately after applying Max load, and again after 30 minutes under that same load",
+          "requiredEquipment": "Certified test weight(s) totalling Max capacity, stopwatch/timer",
+          "envRequirements": "Stable ambient conditions for the full duration",
+          "status": "applicable"
+        },
+        {
+          "key": "TARE",
+          "name": "Tare Performance Test",
+          "purpose": "Verify indication error remains within the applicable MPE when the tare function is used to zero out a container before weighing a net load.",
+          "requiredObservations": "Net indication with tare set, against the certified net test load",
+          "requiredEquipment": "Tare vessel/container, certified test weight for the net load",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        },
+        {
+          "key": "TEMP",
+          "name": "Temperature Effect Test",
+          "purpose": "Verify indication under a fixed load does not drift beyond the applicable tolerance across a stated change in ambient temperature.",
+          "requiredObservations": "Indication at a reference temperature and again after a recorded temperature change, same fixed load",
+          "requiredEquipment": "Certified test weight, calibrated thermometer / environmental chamber",
+          "envRequirements": "Ambient temperature recorded at both readings",
+          "status": "applicable"
+        },
+        {
+          "key": "WARM",
+          "name": "Warm-Up Test",
+          "purpose": "Verify the instrument's indication stabilizes within its stated warm-up time before testing begins.",
+          "requiredObservations": "Successive zero/no-load readings taken at intervals after power-on until stable",
+          "requiredEquipment": "Stopwatch/timer",
+          "envRequirements": "Instrument powered on from cold/off state",
+          "status": "applicable"
+        },
+        {
+          "key": "VOLT",
+          "name": "Voltage Variation Test",
+          "purpose": "Verify indication under a fixed load does not drift beyond the applicable tolerance across the rated supply-voltage range (electronic instruments only).",
+          "requiredObservations": "Indication at nominal supply voltage and again at a rated voltage extreme, same fixed load",
+          "requiredEquipment": "Certified test weight, variable-voltage supply",
+          "envRequirements": "Not applicable to non-electronic (mechanical) instruments",
+          "status": "applicable"
+        },
+        {
+          "key": "SPAN",
+          "name": "Span Stability Test",
+          "purpose": "Verify the instrument's span (full-scale calibration) remains within tolerance between two calibration checks separated in time.",
+          "requiredObservations": "Indication at Max load on two separate span-check occasions",
+          "requiredEquipment": "Certified test weight(s) totalling Max capacity",
+          "envRequirements": "None beyond standard lab conditions",
+          "status": "applicable"
+        }
+      ],
+      "generatedAt": "2026-09-29T02:50:10.078Z",
+      "ruleVersionId": "R76-CFG-2.1"
+    }
+  ],
+  "tests": [
+    {
+      "id": "TEST-A-ACC",
+      "instrumentId": "INST-A300",
+      "testKey": "ACC",
+      "testName": "Accuracy (Weighing) Test",
+      "status": "approved",
+      "observations": [
+        {
+          "id": "OBS-u6vm9",
+          "load": 0,
+          "observed": 0,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:50:10.078Z",
+          "error": 0,
+          "mpeE": 0.5,
+          "mpeVal": 0.05,
+          "result": "PASS",
+          "loadInE": 0,
+          "accuracyClass": "III",
+          "maxCapacity": 300,
+          "minCapacity": 2,
+          "e": 0.1,
+          "n": 3000,
+          "testLoad": 0,
+          "verificationStage": "initial",
+          "observedValue": 0,
+          "referenceValue": 0,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-u7z8n",
+          "load": 75,
+          "observed": 74.97,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:51:10.078Z",
+          "error": -0.03,
+          "mpeE": 1,
+          "mpeVal": 0.1,
+          "result": "PASS",
+          "loadInE": 750,
+          "accuracyClass": "III",
+          "maxCapacity": 300,
+          "minCapacity": 2,
+          "e": 0.1,
+          "n": 3000,
+          "testLoad": 75,
+          "verificationStage": "initial",
+          "observedValue": 74.97,
+          "referenceValue": 75,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-u8i48",
+          "load": 150,
+          "observed": 150.04,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:52:10.078Z",
+          "error": 0.04,
+          "mpeE": 1,
+          "mpeVal": 0.1,
+          "result": "PASS",
+          "loadInE": 1500,
+          "accuracyClass": "III",
+          "maxCapacity": 300,
+          "minCapacity": 2,
+          "e": 0.1,
+          "n": 3000,
+          "testLoad": 150,
+          "verificationStage": "initial",
+          "observedValue": 150.04,
+          "referenceValue": 150,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-u9obv",
+          "load": 225,
+          "observed": 225.01,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:53:10.078Z",
+          "error": 0.01,
+          "mpeE": 1.5,
+          "mpeVal": 0.15,
+          "result": "PASS",
+          "loadInE": 2250,
+          "accuracyClass": "III",
+          "maxCapacity": 300,
+          "minCapacity": 2,
+          "e": 0.1,
+          "n": 3000,
+          "testLoad": 225,
+          "verificationStage": "initial",
+          "observedValue": 225.01,
+          "referenceValue": 225,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-ua01c",
+          "load": 300,
+          "observed": 299.98,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:54:10.078Z",
+          "error": -0.02,
+          "mpeE": 1.5,
+          "mpeVal": 0.15,
+          "result": "PASS",
+          "loadInE": 3000,
+          "accuracyClass": "III",
+          "maxCapacity": 300,
+          "minCapacity": 2,
+          "e": 0.1,
+          "n": 3000,
+          "testLoad": 300,
+          "verificationStage": "initial",
+          "observedValue": 299.98,
+          "referenceValue": 300,
+          "ruleVersionId": "R76-CFG-2.1"
+        }
+      ],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "All observed indications within MPE across the tested range.",
+      "technician": "R. Sharma",
+      "reviewer": "Dr. N. Verma",
+      "approver": "S. Iyer (Authority)",
+      "result": "PASS",
+      "createdAt": "2026-09-09T10:50:10.078Z",
+      "reviewedAt": "2026-09-11T10:50:10.078Z",
+      "approvedAt": "2026-09-12T10:50:10.078Z"
+    },
+    {
+      "id": "TEST-A-REP",
+      "instrumentId": "INST-A300",
+      "testKey": "REP",
+      "testName": "Repeatability Test",
+      "status": "approved",
+      "observations": [
+        {
+          "id": "OBS-ubcxc",
+          "load": 150,
+          "observed": 150.02,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:50:10.078Z"
+        },
+        {
+          "id": "OBS-ucjni",
+          "load": 150,
+          "observed": 150.01,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-09T10:51:10.078Z"
+        },
+        {
+          "id": "OBS-udrv3",
+          "load": 150,
+          "observed": 150.03,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-09T10:52:10.078Z"
+        },
+        {
+          "id": "OBS-ue5if",
+          "load": 150,
+          "observed": 150.01,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-09T10:53:10.078Z"
+        },
+        {
+          "id": "OBS-uftep",
+          "load": 150,
+          "observed": 150.02,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-09T10:54:10.078Z"
+        }
+      ],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "Range within permissible repeatability limit.",
+      "repeatCalc": {
+        "range": 0.02,
+        "allowed": 0.1,
+        "mpeE": 1,
+        "result": "PASS",
+        "max": 150.03,
+        "min": 150.01,
+        "e": 0.1,
+        "loadInE": 1500,
+        "testLoad": 150,
+        "accuracyClass": "III",
+        "maxCapacity": 300,
+        "n": 3000,
+        "verificationStage": "initial",
+        "ruleVersionId": "R76-CFG-2.1"
+      },
+      "technician": "R. Sharma",
+      "reviewer": "Dr. N. Verma",
+      "approver": "S. Iyer (Authority)",
+      "result": "PASS",
+      "createdAt": "2026-09-09T10:50:10.078Z",
+      "reviewedAt": "2026-09-11T10:50:10.078Z",
+      "approvedAt": "2026-09-12T10:50:10.078Z"
+    },
+    {
+      "id": "TEST-A-DIS",
+      "instrumentId": "INST-A300",
+      "testKey": "DIS",
+      "testName": "Discrimination Test",
+      "status": "approved",
+      "observations": [
+        {
+          "id": "OBS-ug9q5",
+          "before": 300,
+          "after": 300.1,
+          "incrementE": 1,
+          "changed": true,
+          "timestamp": "2026-09-10T10:50:10.078Z"
+        }
+      ],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "Indication responded to added increment at maximum capacity.",
+      "technician": "R. Sharma",
+      "reviewer": "Dr. N. Verma",
+      "approver": "S. Iyer (Authority)",
+      "result": "PASS",
+      "createdAt": "2026-09-10T10:50:10.078Z",
+      "reviewedAt": "2026-09-11T10:50:10.078Z",
+      "approvedAt": "2026-09-12T10:50:10.078Z"
+    },
+    {
+      "id": "TEST-A-ECC",
+      "instrumentId": "INST-A300",
+      "testKey": "ECC",
+      "testName": "Eccentricity (Corner Load) Test",
+      "status": "approved",
+      "observations": [
+        {
+          "id": "OBS-uh3pt",
+          "position": "Center",
+          "load": 150,
+          "observed": 150.02,
+          "timestamp": "2026-09-10T10:50:10.078Z"
+        },
+        {
+          "id": "OBS-uih6b",
+          "position": "Corner 1",
+          "load": 150,
+          "observed": 150.08,
+          "timestamp": "2026-09-10T10:50:10.078Z"
+        },
+        {
+          "id": "OBS-uj35j",
+          "position": "Corner 2",
+          "load": 150,
+          "observed": 149.95,
+          "timestamp": "2026-09-10T10:50:10.078Z"
+        },
+        {
+          "id": "OBS-uk5d9",
+          "position": "Corner 3",
+          "load": 150,
+          "observed": 150.06,
+          "timestamp": "2026-09-10T10:50:10.078Z"
+        },
+        {
+          "id": "OBS-ul4rt",
+          "position": "Corner 4",
+          "load": 150,
+          "observed": 149.97,
+          "timestamp": "2026-09-10T10:50:10.078Z"
+        }
+      ],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "Maximum corner deviation within MPE at tested load.",
+      "technician": "R. Sharma",
+      "reviewer": "Dr. N. Verma",
+      "approver": "S. Iyer (Authority)",
+      "result": "PASS",
+      "createdAt": "2026-09-10T10:50:10.078Z",
+      "reviewedAt": "2026-09-11T10:50:10.078Z",
+      "approvedAt": "2026-09-12T10:50:10.078Z"
+    },
+    {
+      "id": "TEST-B-ACC",
+      "instrumentId": "INST-B030",
+      "testKey": "ACC",
+      "testName": "Accuracy (Weighing) Test",
+      "status": "review",
+      "observations": [
+        {
+          "id": "OBS-umiek",
+          "load": 0,
+          "observed": 0,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-29T02:50:10.078Z",
+          "error": 0,
+          "mpeE": 0.5,
+          "mpeVal": 0.0025,
+          "result": "PASS",
+          "loadInE": 0,
+          "accuracyClass": "III",
+          "maxCapacity": 30,
+          "minCapacity": 0.5,
+          "e": 0.005,
+          "n": 6000,
+          "testLoad": 0,
+          "verificationStage": "initial",
+          "observedValue": 0,
+          "referenceValue": 0,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-unfoh",
+          "load": 7.5,
+          "observed": 7.4985,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-29T02:51:10.078Z",
+          "error": -0.0015,
+          "mpeE": 1,
+          "mpeVal": 0.005,
+          "result": "PASS",
+          "loadInE": 1500,
+          "accuracyClass": "III",
+          "maxCapacity": 30,
+          "minCapacity": 0.5,
+          "e": 0.005,
+          "n": 6000,
+          "testLoad": 7.5,
+          "verificationStage": "initial",
+          "observedValue": 7.4985,
+          "referenceValue": 7.5,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-uo7p6",
+          "load": 15,
+          "observed": 15.002,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-29T02:52:10.078Z",
+          "error": 0.002,
+          "mpeE": 1.5,
+          "mpeVal": 0.0075,
+          "result": "PASS",
+          "loadInE": 3000,
+          "accuracyClass": "III",
+          "maxCapacity": 30,
+          "minCapacity": 0.5,
+          "e": 0.005,
+          "n": 6000,
+          "testLoad": 15,
+          "verificationStage": "initial",
+          "observedValue": 15.002,
+          "referenceValue": 15,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-up4x3",
+          "load": 22.5,
+          "observed": 22.5018,
+          "unit": "kg",
+          "source": "manual",
+          "timestamp": "2026-09-29T02:53:10.078Z",
+          "error": 0.0018,
+          "mpeE": 1.5,
+          "mpeVal": 0.0075,
+          "result": "PASS",
+          "loadInE": 4500,
+          "accuracyClass": "III",
+          "maxCapacity": 30,
+          "minCapacity": 0.5,
+          "e": 0.005,
+          "n": 6000,
+          "testLoad": 22.5,
+          "verificationStage": "initial",
+          "observedValue": 22.5018,
+          "referenceValue": 22.5,
+          "ruleVersionId": "R76-CFG-2.1"
+        },
+        {
+          "id": "OBS-uq0cl",
+          "load": 30,
+          "observed": 30.041,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-29T02:54:10.078Z",
+          "error": 0.041,
+          "mpeE": 1.5,
+          "mpeVal": 0.0075,
+          "result": "FAIL",
+          "loadInE": 6000,
+          "accuracyClass": "III",
+          "maxCapacity": 30,
+          "minCapacity": 0.5,
+          "e": 0.005,
+          "n": 6000,
+          "testLoad": 30,
+          "verificationStage": "initial",
+          "observedValue": 30.041,
+          "referenceValue": 30,
+          "ruleVersionId": "R76-CFG-2.1"
+        }
+      ],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "Significant deviation observed at maximum capacity — recommend recalibration check before resubmission.",
+      "technician": "P. Nair",
+      "reviewer": "",
+      "approver": "",
+      "result": "FAIL",
+      "createdAt": "2026-09-29T02:50:10.078Z",
+      "reviewedAt": null,
+      "approvedAt": null
+    },
+    {
+      "id": "TEST-B-REP",
+      "instrumentId": "INST-B030",
+      "testKey": "REP",
+      "testName": "Repeatability Test",
+      "status": "review",
+      "observations": [
+        {
+          "id": "OBS-urlun",
+          "load": 15,
+          "observed": 15.001,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-29T04:50:10.078Z"
+        },
+        {
+          "id": "OBS-usc9o",
+          "load": 15,
+          "observed": 15.001,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-29T04:51:10.078Z"
+        },
+        {
+          "id": "OBS-uthma",
+          "load": 15,
+          "observed": 15.001,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-29T04:52:10.078Z"
+        },
+        {
+          "id": "OBS-uugll",
+          "load": 15,
+          "observed": 15.018,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-29T04:53:10.078Z"
+        },
+        {
+          "id": "OBS-uvx1z",
+          "load": 15,
+          "observed": 15.002,
+          "unit": "kg",
+          "source": "iot",
+          "timestamp": "2026-09-29T04:54:10.078Z"
+        }
+      ],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "Environmental variation flagged during sequence; readings pattern requires reviewer attention.",
+      "technician": "P. Nair",
+      "reviewer": "",
+      "approver": "",
+      "result": "REVIEW",
+      "envFlag": true,
+      "createdAt": "2026-09-29T04:50:10.078Z",
+      "reviewedAt": null,
+      "approvedAt": null
+    },
+    {
+      "id": "TEST-B-DIS",
+      "instrumentId": "INST-B030",
+      "testKey": "DIS",
+      "testName": "Discrimination Test",
+      "status": "pending",
+      "observations": [],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "",
+      "technician": "P. Nair",
+      "reviewer": "",
+      "approver": "",
+      "result": null,
+      "createdAt": "2026-09-29T05:50:10.078Z"
+    },
+    {
+      "id": "TEST-B-ECC",
+      "instrumentId": "INST-B030",
+      "testKey": "ECC",
+      "testName": "Eccentricity (Corner Load) Test",
+      "status": "pending",
+      "observations": [],
+      "ruleVersionId": "R76-CFG-2.1",
+      "remarks": "",
+      "technician": "P. Nair",
+      "reviewer": "",
+      "approver": "",
+      "result": null,
+      "createdAt": "2026-09-29T05:50:10.078Z"
+    }
+  ],
+  "envReadings": [
+    {
+      "id": "ENV-uw40k",
+      "instrumentId": "INST-A300",
+      "testId": "TEST-A-ACC",
+      "timestamp": "2026-09-09T10:50:10.078Z",
+      "temperature": 24.1,
+      "humidity": 51,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-uxjdh",
+      "instrumentId": "INST-A300",
+      "testId": "TEST-A-ACC",
+      "timestamp": "2026-09-09T10:53:10.078Z",
+      "temperature": 24.2,
+      "humidity": 51.2,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-uy53r",
+      "instrumentId": "INST-A300",
+      "testId": "TEST-A-ACC",
+      "timestamp": "2026-09-09T10:56:10.078Z",
+      "temperature": 24.2,
+      "humidity": 51.1,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-uzr3b",
+      "instrumentId": "INST-A300",
+      "testId": "TEST-A-ACC",
+      "timestamp": "2026-09-09T10:59:10.078Z",
+      "temperature": 24.3,
+      "humidity": 51.3,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-v019a",
+      "instrumentId": "INST-A300",
+      "testId": "TEST-A-ACC",
+      "timestamp": "2026-09-09T11:02:10.078Z",
+      "temperature": 24.1,
+      "humidity": 51,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-v15fb",
+      "instrumentId": "INST-B030",
+      "testId": "TEST-B-REP",
+      "timestamp": "2026-09-29T04:50:10.078Z",
+      "temperature": 29.8,
+      "humidity": 52,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-v2z1r",
+      "instrumentId": "INST-B030",
+      "testId": "TEST-B-REP",
+      "timestamp": "2026-09-29T04:52:10.078Z",
+      "temperature": 24.4,
+      "humidity": 52.2,
+      "sensorId": "TEMP-01/HUM-01"
+    },
+    {
+      "id": "ENV-v38fu",
+      "instrumentId": "INST-B030",
+      "testId": "TEST-B-REP",
+      "timestamp": "2026-09-29T04:54:10.078Z",
+      "temperature": 24.5,
+      "humidity": 52.1,
+      "sensorId": "TEMP-01/HUM-01"
+    }
+  ],
+  "reports": [
+    {
+      "id": "RPT-1",
+      "reportNumber": "NAWI-2026-00087",
+      "instrumentId": "INST-A300",
+      "testIds": [
+        "TEST-A-ACC",
+        "TEST-A-REP",
+        "TEST-A-DIS",
+        "TEST-A-ECC"
+      ],
+      "generatedAt": "2026-09-12T10:50:10.078Z",
+      "status": "Issued",
+      "ruleVersionId": "R76-CFG-2.1",
+      "integrityHash": "13223A1C1CC145",
+      "technician": "R. Sharma",
+      "reviewer": "Dr. N. Verma",
+      "approver": "S. Iyer (Authority)"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "AUD-SRV-5e7b8b0169",
+      "timestamp": "2026-09-29T11:00:54.515Z",
+      "user": "P. Nair (Technician)",
+      "action": "Repository saved",
+      "entity": "Repository",
+      "entityId": "SERVER",
+      "prevValue": "—",
+      "newValue": "—",
+      "reason": "Authenticated API write"
+    },
+    {
+      "id": "AUD-SRV-92b236f2aa",
+      "timestamp": "2026-09-29T10:50:10.454Z",
+      "user": "P. Nair (Technician)",
+      "action": "Repository saved",
+      "entity": "Repository",
+      "entityId": "SERVER",
+      "prevValue": "—",
+      "newValue": "—",
+      "reason": "Authenticated API write"
+    },
+    {
+      "id": "AUD-v4dw5",
+      "timestamp": "2026-08-30T10:50:10.078Z",
+      "user": "R. Sharma (Technician)",
+      "action": "Instrument registered",
+      "entity": "Instrument",
+      "entityId": "INST-A300",
+      "prevValue": "—",
+      "newValue": "SS-300B / SS300B-2026-0142",
+      "reason": "New submission"
+    },
+    {
+      "id": "AUD-v5tib",
+      "timestamp": "2026-09-09T10:50:10.078Z",
+      "user": "R. Sharma (Technician)",
+      "action": "Test plan generated",
+      "entity": "TestPlan",
+      "entityId": "TP-A300",
+      "prevValue": "—",
+      "newValue": "4 applicable tests",
+      "reason": "Auto-generated from instrument parameters"
+    },
+    {
+      "id": "AUD-v6b4i",
+      "timestamp": "2026-09-09T10:50:10.078Z",
+      "user": "R. Sharma (Technician)",
+      "action": "Observation recorded",
+      "entity": "Test",
+      "entityId": "TEST-A-ACC",
+      "prevValue": "—",
+      "newValue": "5 accuracy readings",
+      "reason": "Routine test execution"
+    },
+    {
+      "id": "AUD-v7qru",
+      "timestamp": "2026-09-11T10:50:10.078Z",
+      "user": "Dr. N. Verma (Examiner)",
+      "action": "Test reviewed",
+      "entity": "Test",
+      "entityId": "TEST-A-ACC",
+      "prevValue": "review",
+      "newValue": "approved",
+      "reason": "Data verified against MPE table"
+    },
+    {
+      "id": "AUD-v8nas",
+      "timestamp": "2026-09-12T10:50:10.078Z",
+      "user": "S. Iyer (Authority)",
+      "action": "Report approved & issued",
+      "entity": "Report",
+      "entityId": "RPT-1",
+      "prevValue": "draft",
+      "newValue": "Issued",
+      "reason": "All applicable tests approved"
+    },
+    {
+      "id": "AUD-v9qhp",
+      "timestamp": "2026-09-29T02:50:10.078Z",
+      "user": "P. Nair (Technician)",
+      "action": "Instrument registered",
+      "entity": "Instrument",
+      "entityId": "INST-B030",
+      "prevValue": "—",
+      "newValue": "PWT-P30 / PWTP30-2026-0071",
+      "reason": "New submission"
+    },
+    {
+      "id": "AUD-vaqjf",
+      "timestamp": "2026-09-29T02:50:10.078Z",
+      "user": "P. Nair (Technician)",
+      "action": "Observation recorded",
+      "entity": "Test",
+      "entityId": "TEST-B-ACC",
+      "prevValue": "—",
+      "newValue": "5 accuracy readings",
+      "reason": "Routine test execution; deviation at max load"
+    },
+    {
+      "id": "AUD-vb6fo",
+      "timestamp": "2026-09-29T02:50:10.078Z",
+      "user": "P. Nair (Technician)",
+      "action": "Test submitted for review",
+      "entity": "Test",
+      "entityId": "TEST-B-ACC",
+      "prevValue": "in_progress",
+      "newValue": "review",
+      "reason": "FAIL result — escalated to Examiner"
+    },
+    {
+      "id": "AUD-vcg9x",
+      "timestamp": "2026-09-29T04:50:10.078Z",
+      "user": "Smart IoT Test Bench",
+      "action": "Environmental anomaly flagged",
+      "entity": "Test",
+      "entityId": "TEST-B-REP",
+      "prevValue": "24.3°C",
+      "newValue": "29.8°C",
+      "reason": "Sudden ambient variation during repeatability sequence"
+    }
+  ],
+  "iotDevices": [
+    {
+      "id": "DEV-SCALE",
+      "name": "NAWI-TEST-001 (Weighing Device)",
+      "type": "weighing",
+      "status": "connected",
+      "value": 0,
+      "unit": "kg"
+    },
+    {
+      "id": "DEV-TEMP",
+      "name": "Temperature Sensor TEMP-01",
+      "type": "temperature",
+      "status": "connected",
+      "value": 24.4,
+      "unit": "°C"
+    },
+    {
+      "id": "DEV-HUM",
+      "name": "Humidity Sensor HUM-01",
+      "type": "humidity",
+      "status": "connected",
+      "value": 51.6,
+      "unit": "%RH"
+    },
+    {
+      "id": "DEV-GW",
+      "name": "IoT Data Gateway",
+      "type": "gateway",
+      "status": "connected",
+      "value": null,
+      "unit": ""
+    }
+  ],
+  "users": [
+    {
+      "id": "U1",
+      "name": "R. Sharma",
+      "role": "Technician",
+      "email": "r.sharma@nawi-lab.gov.in",
+      "phone": "—",
+      "designation": "Laboratory Technician"
+    },
+    {
+      "id": "U2",
+      "name": "P. Nair",
+      "role": "Technician",
+      "email": "p.nair@nawi-lab.gov.in",
+      "phone": "—",
+      "designation": "Laboratory Technician"
+    },
+    {
+      "id": "U3",
+      "name": "Dr. N. Verma",
+      "role": "Examiner",
+      "email": "n.verma@nawi-lab.gov.in",
+      "phone": "—",
+      "designation": "Senior Examiner"
+    },
+    {
+      "id": "U4",
+      "name": "S. Iyer",
+      "role": "Authority",
+      "email": "s.iyer@nawi-lab.gov.in",
+      "phone": "—",
+      "designation": "Approving Authority"
+    },
+    {
+      "id": "U5",
+      "name": "A. Admin",
+      "role": "Admin",
+      "email": "admin@nawi-lab.gov.in",
+      "phone": "—",
+      "designation": "System Administrator"
+    },
+    {
+      "id": "U6",
+      "name": "Guest Viewer",
+      "role": "Viewer",
+      "email": "viewer@nawi-lab.gov.in",
+      "phone": "—",
+      "designation": "Observer"
+    }
+  ],
+  "referenceEquipment": [
+    {
+      "id": "REF-EQ-1",
+      "equipmentId": "RSW-500-A",
+      "equipmentType": "Reference Standard Weight Set (E2 class, 1g–500kg)",
+      "capacity": "500 kg",
+      "resolution": "0.1 g",
+      "certNumber": "NPL/CAL/2025/4471",
+      "calibrationDate": "2025-04-10",
+      "validUntil": "2027-04-09",
+      "traceability": "National Physical Laboratory (NPL), India — traceable to national mass standard"
+    },
+    {
+      "id": "REF-EQ-2",
+      "equipmentId": "RSW-30-B",
+      "equipmentType": "Reference Standard Weight Set (F1 class, 1g–30kg)",
+      "capacity": "30 kg",
+      "resolution": "1 mg",
+      "certNumber": "NPL/CAL/2024/1187",
+      "calibrationDate": "2024-02-15",
+      "validUntil": "2026-02-14",
+      "traceability": "National Physical Laboratory (NPL), India — traceable to national mass standard"
+    }
+  ],
+  "ruleVersions": [
+    {
+      "id": "R76-CFG-2.1",
+      "version": "OIML R-76-1:2006 (Ed. 2017) — Class-Aware Configuration v2.1",
+      "effective": "2026-09-28",
+      "status": "ACTIVE",
+      "notes": "Per-class MPE breakpoints per R 76-1 Table 6 (I: 50 000e/200 000e; II: 5 000e/20 000e; III: 500e/2 000e; IIII: 50e/200e), coarse-e n-range/Min limits per Table 3 (Class II e>=0.1 g, Class III e>=5 g), initial and in-service (2x) stages. Supersedes v2.0, which applied the Class III breakpoints to every class.",
+      "classTable": {
+        "I": {
+          "label": "Class I — Special accuracy",
+          "nMin": 50000,
+          "nMax": 1000000,
+          "minCapacityInE": 100,
+          "mpeSteps": [
+            {
+              "upTo": 50000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "II": {
+          "label": "Class II — High accuracy",
+          "nMin": 100,
+          "nMax": 100000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 0.1,
+            "nMin": 5000,
+            "minCapacityInE": 50
+          },
+          "mpeSteps": [
+            {
+              "upTo": 5000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 20000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "III": {
+          "label": "Class III — Medium accuracy",
+          "nMin": 100,
+          "nMax": 10000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 5,
+            "nMin": 500,
+            "minCapacityInE": 20
+          },
+          "mpeSteps": [
+            {
+              "upTo": 500,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 2000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "IIII": {
+          "label": "Class IIII — Ordinary accuracy",
+          "nMin": 100,
+          "nMax": 1000,
+          "minCapacityInE": 10,
+          "mpeSteps": [
+            {
+              "upTo": 50,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "R76-CFG-2.0",
+      "version": "OIML R-76-1:2006 (Ed. 2017) — Class-Aware Configuration v2.0",
+      "effective": "2026-01-01",
+      "status": "SUPERSEDED",
+      "notes": "Superseded 2026-09-28 by v2.1. Defect: one 500e/2 000e MPE table was used for all classes (correct only for Class III). Results for Class III are unaffected; Class I, II and IIII results issued under v2.0 must be re-evaluated.",
+      "classTable": {
+        "I": {
+          "label": "Class I — Special accuracy",
+          "nMin": 50000,
+          "nMax": 1000000,
+          "minCapacityInE": 100,
+          "mpeSteps": [
+            {
+              "upTo": 50000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "II": {
+          "label": "Class II — High accuracy",
+          "nMin": 100,
+          "nMax": 100000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 0.1,
+            "nMin": 5000,
+            "minCapacityInE": 50
+          },
+          "mpeSteps": [
+            {
+              "upTo": 5000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 20000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "III": {
+          "label": "Class III — Medium accuracy",
+          "nMin": 100,
+          "nMax": 10000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 5,
+            "nMin": 500,
+            "minCapacityInE": 20
+          },
+          "mpeSteps": [
+            {
+              "upTo": 500,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 2000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "IIII": {
+          "label": "Class IIII — Ordinary accuracy",
+          "nMin": 100,
+          "nMax": 1000,
+          "minCapacityInE": 10,
+          "mpeSteps": [
+            {
+              "upTo": 50,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "R76-CFG-1.2",
+      "version": "OIML R-76-1:2006 (Ed. 2017) — Local Configuration v1.2",
+      "effective": "2024-01-01",
+      "status": "SUPERSEDED",
+      "notes": "Historical configuration retained for traceability. Superseded by v2.0 on 2026-01-01.",
+      "classTable": {
+        "I": {
+          "label": "Class I — Special accuracy",
+          "nMin": 50000,
+          "nMax": 1000000,
+          "minCapacityInE": 100,
+          "mpeSteps": [
+            {
+              "upTo": 50000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "II": {
+          "label": "Class II — High accuracy",
+          "nMin": 100,
+          "nMax": 100000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 0.1,
+            "nMin": 5000,
+            "minCapacityInE": 50
+          },
+          "mpeSteps": [
+            {
+              "upTo": 5000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 20000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "III": {
+          "label": "Class III — Medium accuracy",
+          "nMin": 100,
+          "nMax": 10000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 5,
+            "nMin": 500,
+            "minCapacityInE": 20
+          },
+          "mpeSteps": [
+            {
+              "upTo": 500,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 2000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "IIII": {
+          "label": "Class IIII — Ordinary accuracy",
+          "nMin": 100,
+          "nMax": 1000,
+          "minCapacityInE": 10,
+          "mpeSteps": [
+            {
+              "upTo": 50,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "R76-CFG-1.1",
+      "version": "OIML R-76-1:2006 (Ed. 2017) — Local Configuration v1.1",
+      "effective": "2022-06-01",
+      "status": "SUPERSEDED",
+      "notes": "Historical configuration retained for traceability. Superseded by v1.2 on 2024-01-01.",
+      "classTable": {
+        "I": {
+          "label": "Class I — Special accuracy",
+          "nMin": 50000,
+          "nMax": 1000000,
+          "minCapacityInE": 100,
+          "mpeSteps": [
+            {
+              "upTo": 50000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "II": {
+          "label": "Class II — High accuracy",
+          "nMin": 100,
+          "nMax": 100000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 0.1,
+            "nMin": 5000,
+            "minCapacityInE": 50
+          },
+          "mpeSteps": [
+            {
+              "upTo": 5000,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 20000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "III": {
+          "label": "Class III — Medium accuracy",
+          "nMin": 100,
+          "nMax": 10000,
+          "minCapacityInE": 20,
+          "coarse": {
+            "eFromG": 5,
+            "nMin": 500,
+            "minCapacityInE": 20
+          },
+          "mpeSteps": [
+            {
+              "upTo": 500,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 2000,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        },
+        "IIII": {
+          "label": "Class IIII — Ordinary accuracy",
+          "nMin": 100,
+          "nMax": 1000,
+          "minCapacityInE": 10,
+          "mpeSteps": [
+            {
+              "upTo": 50,
+              "mpeE": 0.5
+            },
+            {
+              "upTo": 200,
+              "mpeE": 1
+            },
+            {
+              "upTo": null,
+              "mpeE": 1.5
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "referenceSources": [
+    {
+      "id": "SRC-OIML-R76",
+      "authority": "OIML",
+      "title": "OIML R 76-1 — Non-automatic weighing instruments",
+      "type": "International recommendation",
+      "edition": "R 76-1:2006 (Ed. 2017 reference record)",
+      "status": "REFERENCE — VERIFY APPLICABLE EDITION",
+      "url": "https://www.oiml.org/",
+      "use": "Technical basis for NAWI test procedures and rule configuration.",
+      "provenance": "Official OIML source domain. Exact edition/amendment must be confirmed before regulatory use."
+    },
+    {
+      "id": "SRC-OIML-PUB",
+      "authority": "OIML",
+      "title": "OIML Publications Library",
+      "type": "Standards library",
+      "edition": "Current publication catalogue",
+      "status": "OFFICIAL SOURCE DIRECTORY",
+      "url": "https://www.oiml.org/",
+      "use": "Locate the authoritative recommendation, amendment or edition applicable to a test."
+    },
+    {
+      "id": "SRC-DOCA-LM",
+      "authority": "Government of India — Department of Consumer Affairs",
+      "title": "Legal Metrology",
+      "type": "Government portal",
+      "edition": "Current portal content",
+      "status": "OFFICIAL GOVERNMENT SOURCE",
+      "url": "https://consumeraffairs.nic.in/",
+      "use": "Government-side legal-metrology references, notices and departmental material."
+    },
+    {
+      "id": "SRC-INDIA-CODE",
+      "authority": "Government of India — India Code",
+      "title": "Central legislation repository",
+      "type": "Government legislation portal",
+      "edition": "Current consolidated portal",
+      "status": "OFFICIAL GOVERNMENT SOURCE",
+      "url": "https://www.indiacode.nic.in/",
+      "use": "Verify the current text of applicable Central Acts and rules before regulatory use."
+    }
+  ],
+  "fingerprintConfig": {
+    "minEvaluations": 2,
+    "changeThresholdE": 2,
+    "significantThresholdE": 5
+  }
+}
